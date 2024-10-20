@@ -1,7 +1,7 @@
 <?php
 $servername = "fdb1030.awardspace.net";
 $username = "4542046";
-$password = "";
+$password = "fcUj6i3hMHuHnk@";
 $database = "4542046_phpblog";
 try {
   $pdo = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
