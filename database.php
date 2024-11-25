@@ -1,8 +1,8 @@
 <?php
-$servername = "fdb1030.awardspace.net";
-$username = "4542046";
-$password = "fcUj6i3hMHuHnk@";
-$database = "4542046_phpblog";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "phpBlog";
 try {
   $pdo = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
   // set the PDO error mode to exception
